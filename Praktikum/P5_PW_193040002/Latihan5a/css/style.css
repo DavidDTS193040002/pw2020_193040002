@@ -1,0 +1,24 @@
+        body {
+            background-color: lightgray;
+            font-family: arial;
+        }
+        table{
+
+            background-color: salmon;
+            border : 1px solid black;
+            font-size : 30px;
+        }
+ 
+        td{
+            padding : 20px;
+            text-align : center;
+            
+        }
+        h1{
+            padding-top: 23px;
+            font-size : 45px;
+            padding-left: 270px;
+        }
+        th {
+            background-color: pink;
+        }
