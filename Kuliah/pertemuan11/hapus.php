@@ -16,5 +16,5 @@ if (hapus($id) > 0) {
           document.location.href = 'index.php';
         </script";
 } else {
-  echo "data gagal ditambahkan!";
+  echo "data gagal dihapus!";
 }
