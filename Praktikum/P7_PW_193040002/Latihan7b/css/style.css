@@ -1,0 +1,23 @@
+body {
+    background-color: lightgray;
+    font-family: arial;
+}
+.container{
+    border: 2px solid black;
+    background-color: cornsilk;
+    font-size : 15px;
+    width: 10%;
+}
+p {
+    text-align: center;
+}
+th {
+    background-color: pink;
+}
+.makanan {
+    background-color: yellow;
+}
+.admin {
+    background-color: greenyellow;
+}
+
