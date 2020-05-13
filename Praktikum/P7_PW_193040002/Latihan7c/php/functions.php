@@ -19,6 +19,7 @@ function query($sql)
     return $rows;
 }
 
+
 function tambah($data)
 {
     $conn = koneksi();

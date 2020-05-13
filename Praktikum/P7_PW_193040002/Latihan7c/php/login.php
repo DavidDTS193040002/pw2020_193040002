@@ -73,7 +73,7 @@ if (isset($_POST['submit'])) {
       <tr>
         <td><label for="password">Password</label></td>
         <td>:</td>
-        <td><input type="text" name="password" autocomplete="off" required></td>
+        <td><input type="password" name="password" autocomplete="off" required></td>
       </tr>
     </table>
     <div class="remember">
