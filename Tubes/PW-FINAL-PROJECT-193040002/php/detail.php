@@ -39,7 +39,6 @@ $mkn = query("SELECT * FROM makanan_pokok WHERE id = $id")[0];
     }
 
     img {
-      height: 200px;
       width: 300px;
       border-radius: 20px;
     }

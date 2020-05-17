@@ -4,10 +4,7 @@ require 'php/functions.php';
 if (isset($_GET['cari'])) {
   $keyword = $_GET['keyword'];
   $makanan = query("SELECT * FROM makanan_pokok WHERE
-            nama_makanan LIKE '%keyword%' OR
-            berat_gr LIKE '%keyword%' OR
-            kalori LIKE '%keyword%' OR
-            unit LIKE '%keyword%' ");
+            nama_makanan LIKE '%keyword%' ");
 } else {
   $makanan = query("SELECT * FROM makanan");
 }

@@ -60,6 +60,7 @@ if (isset($_POST['cari'])) {
       text-decoration: none;
       color: black;
       background-color: white;
+      border-radius: 6px;
     }
 
     a:active {
